@@ -1,0 +1,89 @@
+{
+  "security_threats": [
+    {
+      "threat": "XSS / Script Tag",
+      "count": 1
+    },
+    {
+      "threat": "JS Protocol Injection",
+      "count": 1
+    }
+  ],
+  "emails": {
+    "alu_official": [
+      "r***@alueducation.com"
+    ],
+    "alu_alumni": [
+      "g***@alumni.alueducation.com"
+    ],
+    "alu_si": [],
+    "other_valid": [],
+    "rejected": [
+      "support@.alueducation.com",
+      "--@badsite.com"
+    ]
+  },
+  "urls": {
+    "valid": [
+      "https://alueducation.com/events/friday-meetup",
+      "https://www.alueducation.com/events",
+      "https://twitter.com/ALUeducation"
+    ],
+    "blocked": []
+  },
+  "phones": {
+    "valid": [
+      "+250 788 441 230",
+      "+44 20 7946 0958",
+      "(250) 783-100-200"
+    ],
+    "invalid": [
+      "000-000-0000"
+    ]
+  },
+  "credit_cards": {
+    "valid_masked": [
+      "**** **** **** 0004",
+      "**** **** **** 1111"
+    ],
+    "invalid_masked": [
+      "**** **** **** 3456 (failed Luhn check)",
+      "**** **** **** 0000 (failed Luhn check)"
+    ]
+  },
+  "times": {
+    "12_hour": [
+      "3:30 PM",
+      "8:30 AM",
+      "10:00 AM",
+      "2:30 PM"
+    ],
+    "24_hour": [
+      "09:00",
+      "10:00",
+      "13:00",
+      "17:00"
+    ]
+  },
+  "html_tags": {
+    "safe": [
+      "</script>"
+    ],
+    "unsafe": [
+      "<script>"
+    ]
+  },
+  "hashtags": [
+    "#SocialInnovation",
+    "#ALUKigali",
+    "#ChangeMakers",
+    "#ALUEvents",
+    "#Rwanda",
+    "#EdTech"
+  ],
+  "currency": [
+    "$25.00",
+    "$120.00",
+    "$2,500.00"
+  ]
+}
